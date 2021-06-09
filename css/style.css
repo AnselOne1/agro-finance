@@ -405,6 +405,7 @@ input.submit-btn:hover{
     .products__link span{
         height: 50%;
         color: #F4F4F4;
+        font-size: 18px;
     }
 
 }
