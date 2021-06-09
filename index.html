@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
     <title>Агро-финанс</title>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
@@ -16,14 +15,14 @@
         <div class="container">
             <div class="header__inner">
                 <div class="header__logo">
-                    <a href="#" class="header__link">
+                    <a href="#home" class="header__link">
                         <img src="images/logo.svg" alt="Агро-финанс">
                     </a>
                 </div>
                 <nav class="header__menu">
                     <ul class="header__menu-list">
                         <li class="header__menu-item">
-                            <a href="#" class="header__menu-link">Главная</a>
+                            <a href="#home" class="header__menu-link">Главная</a>
                         </li>
                         <li class="header__menu-item">
                             <a href="#prod" class="header__menu-link">Продукция</a>
@@ -32,30 +31,30 @@
                             <a href="#price" class="header__menu-link">цены</a>
                         </li>
                         <li class="header__menu-item">
-                            <a href="#123" class="header__menu-link">Оставить заявку</a>
+                            <a href="#feedback" class="header__menu-link">Оставить заявку</a>
                         </li>
                     </ul>
                 </nav>
             </div>
     </header>
 
-    <main>
+     <main>
 
-        <section class="content">
+        <section id="home" class="content" style="background-image: url('images/bg.jpg');">
             <div class="content__block">
                 <div class="content__inner">
                     <h1 class="content__title">
                         Агро-финанс
                     </h1>
-                    <h4 class="content__subtitle">
+                    <h2 class="content__subtitle">
                         Реализация сельcкохозяйственной продукции
-                    </h4>
+                    </h2>
                     <div class="content__text">
                         Наша компания успешно занимается реализацией <br>
                         селькохозяйственной продукции <br>
                         на территории Волгоградской области
                     </div>
-                    <a class="content__btn" href="#">Оставить заявку</a>
+                    <a class="content__btn" href="#feedback">Оставить заявку</a>
                 </div>
             </div>
         </section>
@@ -113,7 +112,7 @@
                 </h3>
                 <div class="price__inner">
                     <div class="price__item">
-                        <img src="images/icons/tomato.svg" alt="" class="price__icon">
+                        <img src="images/icons/icon-1.svg" alt="" class="price__icon">
                         <div class="price__name">
                             Помидоры
                         </div>
@@ -123,7 +122,7 @@
                         <div class="price__img" style="background-image: url(images/price/price-1.jpg);"></div>
                     </div>
                     <div class="price__item">
-                        <img src="images/icons/лук.svg" alt="" class="price__icon">
+                        <img src="images/icons/icon-2.svg" alt="" class="price__icon">
                         <div class="price__name">
                             Лук
                         </div>
@@ -133,7 +132,7 @@
                         <div class="price__img" style="background-image: url(images/price/price-2.jpg);"></div>
                     </div>
                     <div class="price__item">
-                        <img src="images/icons/огурец.svg" alt="" class="price__icon">
+                        <img src="images/icons/icon-3.svg" alt="" class="price__icon">
                         <div class="price__name">
                             Огурцы
                         </div>
@@ -143,7 +142,7 @@
                         <div class="price__img" style="background-image: url(images/price/price-3.jpg);"></div>
                     </div>
                     <div class="price__item">
-                        <img src="images/icons/морковь.svg" alt="" class="price__icon">
+                        <img src="images/icons/icon-4.svg" alt="" class="price__icon">
                         <div class="price__name">
                             морковь
                         </div>
@@ -153,7 +152,7 @@
                         <div class="price__img" style="background-image: url(images/price/price-4.jpg);"></div>
                     </div>
                     <div class="price__item">
-                        <img src="images/icons/капуста.svg" alt="" class="price__icon">
+                        <img src="images/icons/icon-5.svg" alt="" class="price__icon">
                         <div class="price__name">
                             Капуста
                         </div>
@@ -163,7 +162,7 @@
                         <div class="price__img" style="background-image: url(images/price/price-5.jpg);"></div>
                     </div>
                     <div class="price__item">
-                        <img src="images/icons/кукуруза.svg" alt="" class="price__icon">
+                        <img src="images/icons/icon-6.svg" alt="" class="price__icon">
                         <div class="price__name">
                             кукуруза
                         </div>
@@ -176,7 +175,10 @@
             </div>
         </section>
 
-        <section class="feedback">
+
+
+
+        <section id="feedback" class="feedback">
 
             <div class="feedback__inner">
                 <h3 class="title feedback__title">
@@ -185,22 +187,26 @@
                 <h4 class="feedback__subtitle">
                     Вы можете оставить заявку
                 </h4>
-                <h4 class="feedback__connect">
+                <div class="feedback__connect">
                     Мы с вами свяжемся
-                </h4>
+                </div>
                 <form class="feedback__form">
-                    <label class="feedback__form-title" for="name">Ваше имя<span class="warn">*</span></label>
+                    <label class="feedback__form-title" for="name">
+                        Ваше имя<span class="warn">*</span>
+                    </label>
                     <input id="name" type="text" name="name" placeholder="Александр" required>
-                    <label class="feedback__form-title" for="phone">Телефон<span class="warn">*</span></label>
+                    <label class="feedback__form-title" for="phone">
+                        Телефон<span class="warn">*</span>
+                    </label>
                     <input id="phone" type="tel" name="tel" placeholder="+79098800177" required>
-                    <label class="feedback__form-title">Сообщение</label>
-                    <textarea class="feedback__form-message" name="message"
-                        placeholder="Оставьте здесь свое сообщение"></textarea>
+                    <label class="feedback__form-title">
+                        Сообщение
+                    </label>
+                    <textarea class="feedback__form-message" name="message" placeholder="Оставьте здесь свое сообщение"></textarea>
                     <input class="submit-btn" type="submit" name="submit_btn" value="Отправить">
 
                 </form>
             </div>
-
 
         </section>
 
@@ -209,9 +215,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <a href="tel:+79029990212">+7 (902)999-02-12</a>
+                <a href="tel:+79999990212">+7 (999)999-02-12</a>
                 <div class="footer__company">
-                    ООО “АГро-финанс”
+                    ООО “Агро-финанс”
                 </div>
             </div>
         </div>
