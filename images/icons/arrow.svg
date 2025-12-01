@@ -1,0 +1,9 @@
+<svg viewBox="0 0 9.99146 36.5029" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9.991455" height="36.502930" fill="none" customFrame="#000000">
+	<defs>
+		<linearGradient id="paint_linear_0" x1="35" x2="28.2075043" y1="0.654069662" y2="12.2757702" gradientUnits="userSpaceOnUse">
+			<stop stop-color="rgb(35.2596,113.673,73.066)" offset="0" stop-opacity="1" />
+			<stop stop-color="rgb(53.0621,197.61,107.05)" offset="1" stop-opacity="1" />
+		</linearGradient>
+	</defs>
+	<path id="Arrow 1" d="M0 -0.75L35 -0.75L35 0.75L0 0.75L0 -0.75ZM0.02 0.73L0 0.75C-0.42 0.75 -0.75 0.42 -0.75 -0C-0.75 -0.42 -0.42 -0.75 0 -0.75L0.02 -0.73L0.02 0.73ZM33.9393 0L30.227 -3.71231C29.93 -4.0093 29.93 -4.47599 30.227 -4.77297C30.524 -5.06996 30.9907 -5.06996 31.2877 -4.77297L35.5303 -0.530331C35.8273 -0.233346 35.8273 0.233346 35.5303 0.530331L31.2877 4.77297C30.9907 5.06996 30.524 5.06996 30.227 4.77297C29.93 4.47599 29.93 4.0093 30.227 3.71231L33.9393 0Z" fill="url(#paint_linear_0)" fill-rule="nonzero" transform="matrix(4.37114e-08,-1,1,4.37114e-08,4.99573,35.7529)" />
+</svg>
